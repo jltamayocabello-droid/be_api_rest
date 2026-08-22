@@ -8,3 +8,14 @@
     - Stateless v/s Stateful
     - Arquitectura distribuida
     - Request y Response (Concepto general)
+
+2. Protocolo HTTP en Profundidad
+    - Métodos HTTP
+        - GET, POST, PUT, PATCH, DELETE, OPTIONS, HEAD
+    - Idempotencia
+    - Safe Methods
+    - Headers HTTP (Request y Response)
+    - Status Codes HTTP
+        - 1xx, 2xx, 3xx, 4xx, 5xx
+    - Content-Type y Accept
+    - Caching en HTTP
