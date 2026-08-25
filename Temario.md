@@ -30,3 +30,15 @@
         - Código bajo demanda (opcional)
     - Qué es una API RESTful
     - Qué NO es REST
+
+4. Diseño de APIs RESTful
+    Objetivo: Aprender a diseñar APIs limpias y profesionales.
+    -   Recursos
+    - URL v/s URL
+    - Naming de endpoints (sustantivos, pluralización)
+    - Versionado de APIs (URI y Header versioning)
+    - Relaciones entre recursos
+    - Filtros, ordenamiento y paginación
+    - Búsquedas
+    - HATEOAS (concepto)
+    - Buenas prácticas REST
