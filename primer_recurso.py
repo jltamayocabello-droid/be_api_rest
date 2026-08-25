@@ -14,3 +14,9 @@ def get_user(user_id: int):
     return {"id": user_id,
             "name": "Guillermo Beltran"
             }
+
+@app.post("/users")
+def create_user():
+    return {
+        "message": "User created"
+            }
