@@ -34,7 +34,7 @@
 4. Diseño de APIs RESTful
     Objetivo: Aprender a diseñar APIs limpias y profesionales.
     -   Recursos
-    - URL v/s URL
+    - URI v/s URL
     - Naming de endpoints (sustantivos, pluralización)
     - Versionado de APIs (URI y Header versioning)
     - Relaciones entre recursos
