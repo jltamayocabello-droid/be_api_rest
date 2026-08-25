@@ -8,3 +8,9 @@ def get_users():
         {"id": 1, "name": "John Doe"},
         {"id": 2, "name": "Jane Doe"}
     ]
+
+@app.get("/users/{user_id}")
+def get_user(user_id: int):
+    return {"id": user_id,
+            "name": "Guillermo Beltran"
+            }
