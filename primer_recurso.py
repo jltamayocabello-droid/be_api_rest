@@ -37,3 +37,11 @@ def get_users_v2():
         {"id": 1, "full_name": "Guillermo Beltran Rios"},
     ]
 
+# Relaciones entre recursos
+
+app.get("/users/{user_id}/orders")
+def get_orders_for_user(user_id: int):
+    return[
+        {"order_id": 100, "user_id": user_id},
+        {"order_id": 200, "user_id": user_id}
+    ]
