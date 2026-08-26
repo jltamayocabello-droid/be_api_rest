@@ -42,3 +42,12 @@
     - Búsquedas
     - HATEOAS (concepto)
     - Buenas prácticas REST
+
+5. Formatos de Datos
+    Objetivo: Entender cómo se intercambia la información
+    - JSON (estructura, tipos de datos)
+    - XML (conceptos básicos)
+    - JSON v/s XML
+    - Serialización y deserialización
+    - Encoding (UTF-8)
+    - Manejo de fechas y horas en APIs
