@@ -57,3 +57,15 @@ def list_users(active: Optional[bool] = None, page: int=1, size: int=10):
         "size": size,
         "users":[]
     }
+
+# HATEOAS
+
+@app.get("/usersa/{user_id}")
+def get_usera(user_id: int):
+    return {"id": user_id,
+            "name": "Filipo Beltran",
+            "_links": {
+                "self": f"/users/{user_id}",
+                "orders": f"/users/{user_id}/orders"
+            }
+        }
