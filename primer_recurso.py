@@ -9,12 +9,14 @@ def get_users():
         {"id": 2, "name": "Jane Doe"}
     ]
 
+# Rutas dinamicas
 @app.get("/users/{user_id}")
 def get_user(user_id: int):
     return {"id": user_id,
             "name": "Guillermo Beltran"
             }
 
+# Metodos
 @app.post("/users")
 def create_user():
     return {
@@ -34,3 +36,4 @@ def get_users_v2():
     return [
         {"id": 1, "full_name": "Guillermo Beltran Rios"},
     ]
+
