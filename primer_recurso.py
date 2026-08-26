@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from typing import Optional
 
 app = FastAPI()
 
@@ -45,3 +46,14 @@ def get_orders_for_user(user_id: int):
         {"order_id": 100, "user_id": user_id},
         {"order_id": 200, "user_id": user_id}
     ]
+
+# Filtros, ordenamiento y paginación
+
+@app.get("/users_pag")
+def list_users(active: Optional[bool] = None, page: int=1, size: int=10):
+    return{
+        "active": active,
+        "page": page,
+        "size": size,
+        "users":[]
+    }
