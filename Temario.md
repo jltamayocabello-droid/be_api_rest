@@ -51,3 +51,15 @@
     - Serialización y deserialización
     - Encoding (UTF-8)
     - Manejo de fechas y horas en APIs
+
+6. Seguridad en APIs REST
+    - Autenticación v/ Autorización
+    - Basic Auth
+    - API Keys
+    - Bearer Token
+    - JWT (JSON Web Token)
+    - OAuth 2.0 (conceptos)
+    - HTTPS obligatorio
+    - Rate Limiting
+    - CORS
+    - OWASP API Top 10
