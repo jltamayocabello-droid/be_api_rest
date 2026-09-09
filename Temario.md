@@ -63,3 +63,15 @@
     - Rate Limiting
     - CORS
     - OWASP API Top 10
+
+7. Pruebas de APIs REST
+    - Tipos de pruebas de APIs
+        - Funcionales. Negativas, Seguridad, Performance
+    - Pruebas manuales con Postman
+    - Colecciones y entornos
+    - Variables
+    - Assertions
+    - Mock Servers
+    - Automatización básica de APIs
+    - Pruebas de contrato
+    - Data-driven testing
