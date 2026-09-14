@@ -75,3 +75,14 @@
     - Automatización básica de APIs
     - Pruebas de contrato
     - Data-driven testing
+
+8. Automatización de APIs REST
+    - Automatización v/s pruebas manuales
+    - Frameworks de testing de APIs
+        - Python + Pytest, Java + RestsAssured
+        - JavaScript + SuperTest
+    - Estructura de un proyecto de automatización
+    - Manejo de tokens
+    - Validación de JSON
+    - Reports
+    - Integración de CI/CD
