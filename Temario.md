@@ -77,6 +77,9 @@
     - Data-driven testing
 
 8. Automatización de APIs REST
+
+Objetivo: Automatizar pruebas REST
+
     - Automatización v/s pruebas manuales
     - Frameworks de testing de APIs
         - Python + Pytest, Java + RestsAssured
