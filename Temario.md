@@ -107,3 +107,12 @@
         - JMeter, K6
     - Cache (Redis, HTTP Cache)
     - API Gateway
+
+11. Arquitecturas Modernas
+    Objetivo: Contextualizar REST hoy
+    - REST en microservicios
+    - REST v/s GraphQL
+    - REST v/s gRPC
+    - APIs síncronas v/s asíncronas
+    - Event-driven APIs
+    - Serverless APIs
