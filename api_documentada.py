@@ -1,4 +1,4 @@
-from fastapi import FastAPI, httpexception
+from fastapi import FastAPI, HTTPException
 
 app = FastAPI(
     title="API de usuarios",
@@ -8,7 +8,7 @@ app = FastAPI(
 
 users = [
     {"id": 1, "name": "Miguel Beltran"},
-    {"id": 2, "name": "Michael Rosales"}
+    {"id": 2, "name": "Michael Rosales"},
     {"id": 3, "name": "Guillermo Beltran"}
 ]
 
@@ -30,7 +30,7 @@ def get_user(user_id: int):
     for user in users:
         if user["id"] == user_id:
             return user
-    raise httpexception.HTTPException(
+    raise HTTPException(
         status_code=404, 
         detail="Usuario no encontrado"
         )
@@ -42,7 +42,7 @@ def get_user(user_id: int):
 
 def create_user(user: dict):
     if "name" not in user:
-        raise httpexception.HTTPException(
+        raise HTTPException(
             status_code=400, 
             detail="El campo 'name' es obligatorio"
         )
