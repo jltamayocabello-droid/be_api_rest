@@ -1,118 +1,124 @@
-# Temario
+# 📚 Temario
 
-1. Fundamentos de la web
-    - ¿Qué es la Web?
-    - Cliente v/s servidor
-    - ¿Qué es HTTP?
-    - HTTPS y Certificados SSL/TLS
-    - Stateless v/s Stateful
-    - Arquitectura distribuida
-    - Request y Response (Concepto general)
+## 1. Fundamentos de la web
+- ¿Qué es la Web?
+- Cliente v/s servidor
+- ¿Qué es HTTP?
+- HTTPS y Certificados SSL/TLS
+- Stateless v/s Stateful
+- Arquitectura distribuida
+- Request y Response (Concepto general)
 
-2. Protocolo HTTP en Profundidad
-    - Métodos HTTP
-        - GET, POST, PUT, PATCH, DELETE, OPTIONS, HEAD
-    - Idempotencia
-    - Safe Methods
-    - Headers HTTP (Request y Response)
-    - Status Codes HTTP
-        - 1xx, 2xx, 3xx, 4xx, 5xx
-    - Content-Type y Accept
-    - Caching en HTTP
+## 2. Protocolo HTTP en Profundidad
+- Métodos HTTP
+  - GET, POST, PUT, PATCH, DELETE, OPTIONS, HEAD
+- Idempotencia
+- Safe Methods
+- Headers HTTP (Request y Response)
+- Status Codes HTTP
+  - 1xx, 2xx, 3xx, 4xx, 5xx
+- Content-Type y Accept
+- Caching en HTTP
 
-3. ¿Qué es REST?
-    -   Definición
-    - REST v/s SOAP
-    - REST v/s RPC
-    - Principios de REST
-        - Cliente-Servidor, Stateless, Cacheable
-        - Interfaz uniforme, Sistema en capas
-        - Código bajo demanda (opcional)
-    - Qué es una API RESTful
-    - Qué NO es REST
+## 3. ¿Qué es REST?
+- Definición
+- REST v/s SOAP
+- REST v/s RPC
+- Principios de REST
+  - Cliente-Servidor, Stateless, Cacheable
+  - Interfaz uniforme, Sistema en capas
+  - Código bajo demanda (opcional)
+- Qué es una API RESTful
+- Qué NO es REST
 
-4. Diseño de APIs RESTful
-    Objetivo: Aprender a diseñar APIs limpias y profesionales.
-    -   Recursos
-    - URI v/s URL
-    - Naming de endpoints (sustantivos, pluralización)
-    - Versionado de APIs (URI y Header versioning)
-    - Relaciones entre recursos
-    - Filtros, ordenamiento y paginación
-    - Búsquedas
-    - HATEOAS (concepto)
-    - Buenas prácticas REST
+## 4. Diseño de APIs RESTful
+> **Objetivo:** Aprender a diseñar APIs limpias y profesionales.
 
-5. Formatos de Datos
-    Objetivo: Entender cómo se intercambia la información
-    - JSON (estructura, tipos de datos)
-    - XML (conceptos básicos)
-    - JSON v/s XML
-    - Serialización y deserialización
-    - Encoding (UTF-8)
-    - Manejo de fechas y horas en APIs
+- Recursos
+- URI v/s URL
+- Naming de endpoints (sustantivos, pluralización)
+- Versionado de APIs (URI y Header versioning)
+- Relaciones entre recursos
+- Filtros, ordenamiento y paginación
+- Búsquedas
+- HATEOAS (concepto)
+- Buenas prácticas REST
 
-6. Seguridad en APIs REST
-    - Autenticación v/ Autorización
-    - Basic Auth
-    - API Keys
-    - Bearer Token
-    - JWT (JSON Web Token)
-    - OAuth 2.0 (conceptos)
-    - HTTPS obligatorio
-    - Rate Limiting
-    - CORS
-    - OWASP API Top 10
+## 5. Formatos de Datos
+> **Objetivo:** Entender cómo se intercambia la información.
 
-7. Pruebas de APIs REST
-    - Tipos de pruebas de APIs
-        - Funcionales. Negativas, Seguridad, Performance
-    - Pruebas manuales con Postman
-    - Colecciones y entornos
-    - Variables
-    - Assertions
-    - Mock Servers
-    - Automatización básica de APIs
-    - Pruebas de contrato
-    - Data-driven testing
+- JSON (estructura, tipos de datos)
+- XML (conceptos básicos)
+- JSON v/s XML
+- Serialización y deserialización
+- Encoding (UTF-8)
+- Manejo de fechas y horas en APIs
 
-8. Automatización de APIs REST
-    Objetivo: Automatizar pruebas REST
-    - Automatización v/s pruebas manuales
-    - Frameworks de testing de APIs
-        - Python + Pytest, Java + RestsAssured
-        - JavaScript + SuperTest
-    - Estructura de un proyecto de automatización
-    - Manejo de tokens
-    - Validación de JSON
-    - Reports
-    - Integración de CI/CD
+## 6. Seguridad en APIs REST
+- Autenticación v/s Autorización
+- Basic Auth
+- API Keys
+- Bearer Token
+- JWT (JSON Web Token)
+- OAuth 2.0 (conceptos)
+- HTTPS obligatorio
+- Rate Limiting
+- CORS
+- OWASP API Top 10
 
-9. Documentación 
-    Objetivo: Documentar correctamente una API
-    - Importancia de la documentación
-    - OpenAPI / Swagger
-    - Anotaciones
-    - Ejecución desde Swagger UI
-    - Versionado de documentación
-    - Contract-first v/s Code first
+## 7. Pruebas de APIs REST
+- Tipos de pruebas de APIs
+  - Funcionales, Negativas, Seguridad, Performance
+- Pruebas manuales con Postman
+- Colecciones y entornos
+- Variables
+- Assertions
+- Mock Servers
+- Automatización básica de APIs
+- Pruebas de contrato
+- Data-driven testing
 
-10. Performance y Escalabilidad
-    Objetivo: Evaluar APIs en producción
-    - Latencia
-    - Throughput
-    - Pruebas de carga
-    - Pruebas de estrés
-    - Herramientas
-        - JMeter, K6
-    - Cache (Redis, HTTP Cache)
-    - API Gateway
+## 8. Automatización de APIs REST
+> **Objetivo:** Automatizar pruebas REST.
 
-11. Arquitecturas Modernas
-    Objetivo: Contextualizar REST hoy
-    - REST en microservicios
-    - REST v/s GraphQL
-    - REST v/s gRPC
-    - APIs síncronas v/s asíncronas
-    - Event-driven APIs
-    - Serverless APIs
+- Automatización v/s pruebas manuales
+- Frameworks de testing de APIs
+  - Python + Pytest, Java + RestAssured
+  - JavaScript + SuperTest
+- Estructura de un proyecto de automatización
+- Manejo de tokens
+- Validación de JSON
+- Reports
+- Integración de CI/CD
+
+## 9. Documentación
+> **Objetivo:** Documentar correctamente una API.
+
+- Importancia de la documentación
+- OpenAPI / Swagger
+- Anotaciones
+- Ejecución desde Swagger UI
+- Versionado de documentación
+- Contract-first v/s Code-first
+
+## 10. Performance y Escalabilidad
+> **Objetivo:** Evaluar APIs en producción.
+
+- Latencia
+- Throughput
+- Pruebas de carga
+- Pruebas de estrés
+- Herramientas
+  - JMeter, K6
+- Cache (Redis, HTTP Cache)
+- API Gateway
+
+## 11. Arquitecturas Modernas
+> **Objetivo:** Contextualizar REST hoy.
+
+- REST en microservicios
+- REST v/s GraphQL
+- REST v/s gRPC
+- APIs síncronas v/s asíncronas
+- Event-driven APIs
+- Serverless APIs
