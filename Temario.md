@@ -96,3 +96,14 @@
     - Ejecución desde Swagger UI
     - Versionado de documentación
     - Contract-first v/s Code first
+
+10. Performance y Escalabilidad
+    Objetivo: Evaluar APIs en producción
+    - Latencia
+    - Throughput
+    - Pruebas de carga
+    - Pruebas de estrés
+    - Herramientas
+        - JMeter, K6
+    - Cache (Redis, HTTP Cache)
+    - API Gateway
